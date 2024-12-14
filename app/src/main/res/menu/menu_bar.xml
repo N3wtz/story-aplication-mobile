@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/listFragment"
+        android:icon="@drawable/home"
+        android:title="Beranda"/>
+
+    <item
+        android:id="@+id/postActivity"
+        android:icon="@drawable/add"
+        android:title="Buat" />
+
+    <item
+        android:id="@+id/userFragment"
+        android:icon="@drawable/person"
+        android:title="Profil"/>
+</menu>
