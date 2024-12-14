@@ -17,6 +17,9 @@
     <string name="network_error">Terjadi Masalah Jaringan</string>
     <string name="username_password_is_incorrect">Invalid Password</string>
 
+    <string name="location_permission_granted">Location permission granted</string>
+    <string name="location_permission_denied">Location permission denied</string>
+
     <string name="no_connection">Waktu Koneksi Habis</string>
     <string name="error">Permintaan tidak dapat dimuat</string>
     <string name="list_story">User Story List</string>
@@ -30,4 +33,13 @@
     <string name="upload">Kirimkan Ceritamu</string>
     <string name="desc">Deskripsi</string>
     <string name="masuk">Masuk</string>
+
+
+    <string name="menu_beranda">Masuk</string>
+    <string name="menu_buat">Buat</string>
+    <string name="menu_peta">Peta</string>
+    <string name="menu_profil">Profil</string>
+
+    <string name="add_location">Tambahkan Lokasimu</string>
+
 </resources>

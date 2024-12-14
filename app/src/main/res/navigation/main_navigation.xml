@@ -20,4 +20,9 @@
         android:name="com.bangkit.storyapplicationgagas.View.UI.AddStory.AddActivity"
         android:label="activity_post"
         tools:layout="@layout/activity_add" />
+    <fragment
+        android:id="@+id/mapsFragment"
+        android:name="com.bangkit.storyapplicationgagas.View.UI.Maps.MapsFragment"
+        android:label="fragment_maps"
+        tools:layout="@layout/fragment_maps" />
 </navigation>

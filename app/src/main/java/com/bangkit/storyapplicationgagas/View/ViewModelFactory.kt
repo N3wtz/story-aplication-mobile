@@ -10,6 +10,7 @@ import com.bangkit.storyapplicationgagas.View.UI.AddStory.AddViewModel
 import com.bangkit.storyapplicationgagas.View.UI.List.StoryViewModel
 import com.bangkit.storyapplicationgagas.View.UI.Login.LoginViewModel
 import com.bangkit.storyapplicationgagas.View.UI.MainViewModel
+import com.bangkit.storyapplicationgagas.View.UI.Maps.MapViewModel
 import com.bangkit.storyapplicationgagas.View.UI.SignUp.SignUpViewModel
 import com.bangkit.storyapplicationgagas.View.UI.User.UserViewModel
 
@@ -40,6 +41,9 @@ class ViewModelFactory(
             }
             modelClass.isAssignableFrom(AddViewModel::class.java) -> {
                 AddViewModel(storyRepository) as T
+            }
+            modelClass.isAssignableFrom(MapViewModel::class.java) -> {  // Menambahkan MapViewModel
+                MapViewModel(storyRepository) as T
             }
             else -> throw IllegalArgumentException("Unknown ViewModel Class: " + modelClass.name)
         }

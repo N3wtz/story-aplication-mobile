@@ -5,15 +5,20 @@
     <item
         android:id="@+id/listFragment"
         android:icon="@drawable/home"
-        android:title="Beranda"/>
+        android:title="@string/menu_beranda"/>
 
     <item
         android:id="@+id/postActivity"
         android:icon="@drawable/add"
-        android:title="Buat" />
+        android:title="@string/menu_buat" />
+
+    <item
+        android:id="@+id/mapsFragment"
+        android:icon="@drawable/baseline_map_24"
+        android:title="@string/menu_peta"/>
 
     <item
         android:id="@+id/userFragment"
         android:icon="@drawable/person"
-        android:title="Profil"/>
+        android:title="@string/menu_profil"/>
 </menu>
